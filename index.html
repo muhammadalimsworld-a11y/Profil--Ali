@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-  <script src="js/index.js"></script>
-  <title>index.html</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Muhammad Ali - Perawat Senior</title>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .card { background: white; width: 100%; max-width: 380px; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3); overflow: hidden; text-align: center; }
+        .header-blue { background: #00e5ff; height: 130px; position: relative; }
+        .profile-container { width: 120px; height: 120px; background: white; border-radius: 50%; position: absolute; bottom: -60px; left: 50%; transform: translateX(-50%); border: 5px solid white; overflow: hidden; }
+        .content { padding: 75px 25px 30px; }
+        h1 { margin: 0; font-size: 24px; color: #2d3436; }
+        .jabatan { color: #2ecc71; font-weight: bold; font-size: 13px; margin: 10px 0 20px; text-transform: uppercase; }
+        .btn-wa { background: #25d366; color: white; text-decoration: none; display: block; padding: 15px; border-radius: 15px; font-weight: bold; margin-bottom: 15px; }
+        .btn-bkn { background: #ff9800; color: white; text-decoration: none; display: block; padding: 12px; border-radius: 10px; font-size: 14px; }
+    </style>
 </head>
 <body>
-	<h1>index.html</h1>
+    <div class="card">
+        <div class="header-blue">
+            <div class="profile-container">
+                <img src="ali.jpg" alt="Foto Ali" style="width:100%; height:100%; object-fit:cover;">
+            </div>
+        </div>
+        <div class="content">
+            <h1>Muhammad Ali</h1>
+            <div class="jabatan">Senior Perawat BLUD <br> Puskesmas Kab. Dompu</div>
+            <p style="font-size:14px; color:#636e72;">"Melayani dengan hati untuk masyarakat Dompu."</p>
+            <a href="https://wa.me" class="btn-wa">WhatsApp Konsultasi</a>
+            <a href="https://bkn.go.id" class="btn-bkn">Akses e-Kinerja BKN</a>
+            <p style="font-size: 10px; color: #b2bec3; margin-top: 20px;">Email: muhammadalimsworld@gmail.com</p>
+        </div>
+    </div>
 </body>
 </html>
